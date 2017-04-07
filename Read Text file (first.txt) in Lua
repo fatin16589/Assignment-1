@@ -1,0 +1,13 @@
+fhr = io.open ("D:/UITM/sem3/Lua-Test 1/First.txt","r")
+
+print ("A B C to Z alphabet:" )
+print (" ")
+
+while true do
+        lineST = fhr.read (fhr)
+		
+        if not lineST then break end
+		
+        print (lineST)
+		
+        end
